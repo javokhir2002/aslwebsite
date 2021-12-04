@@ -1,0 +1,259 @@
+html {
+	box-sizing: inherit;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+*,
+*::before,
+*::after {
+	
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    
+    background-color: black;
+
+    background-size: auto 600px;
+    background-position-x: 100%;
+    background-repeat: no-repeat;
+    background-image: url("../img/asl_photo.png");
+}
+.container{
+	height: 100%;
+	margin: 0px 75px 0px 125px;
+	
+}
+
+/* Header */
+header{
+	width: 100%;
+	height: 120px;
+	background: rgba(0, 35, 37, 0.3);
+}
+header .wrapper{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	color: white;
+	font-size: 20px;
+	font-weight: 700;
+	padding: 20px 0px;
+	align-items:flex-end;
+
+}
+	
+	/* Header */
+	header .wrapper .box-1{
+		height: 50%;
+		width: 70%;
+		display: flex;
+		align-items: center;
+	
+	}
+	header .wrapper .box-1 .img{
+		width: 70%;
+		height: 100%;
+	}
+	header .wrapper .box-1 .img img{
+		height: 100%;
+	}
+	header .wrapper .box-1 .text{
+		width: 30%;
+	}
+	header .wrapper .box-2{
+		height: 50%;
+		width: 20%;
+		display: flex;
+		align-items: center;
+		
+	}
+	header .wrapper .box-2 .logo{
+		width: 20%;
+		height: 100%;
+	}
+	header .wrapper .box-2 .logo img{
+		height: 100%;
+	}
+	header .wrapper .box-2 .text{
+		width: 45%;
+        color: #00c4d9;
+	}
+	header .wrapper .box-2 .text:hover{
+		color: white;
+	}
+	header .wrapper .box-3{
+		height: 50%;
+		width: 10%;
+		display: flex;
+		align-items: center;
+		
+	}
+	header .wrapper .box-3 .img-telg{
+		width: 100%;
+		height: 100%;
+		margin: 0px 5px;
+		
+	}
+	header .wrapper .box-3 .img-telg img{
+		height: 100%;
+	}
+	header .wrapper .box-3 .img-inst{
+		width: 100%;
+		height: 100%;
+		margin: 0px 5px;
+		
+	}
+	header .wrapper .box-3 .img-inst img{
+		height: 100%;
+	}
+	/* /Header boxes*/
+
+/* /Header */
+
+
+section{
+    color: white;
+    height:460px ;
+}
+
+section .spred{
+    width: 80%;
+    height: 100%;
+  
+}
+
+.spred .box-1{
+    
+    width: 30%;
+    height: 15%;
+   
+    font-size: 24px;
+    border-bottom: 2px solid #00c4d9; 
+    display: flex;
+    align-items: center;
+    
+}
+.spred .box-2{
+    width: 60%;
+    height: 40%;
+    font-size: 22px;
+    color:  #00656f;
+    
+}
+
+.spred .box-2 .con-phone{
+    width: 100%;
+	
+
+    height: 50%;
+    font-size: 22px;
+    color:  #00656f;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+    
+}
+.spred .box-2 .con-net{
+    width: 100%;
+    height: 50%;
+    font-size: 22px;
+    color:  #00656f;
+
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+.spred .box-2 .con-net p{
+	
+	height: 50%;
+	display: flex;
+	align-items: center;
+	
+}
+.spred .box-2 .con-net .net_images{
+	width: 60%;
+	height: 50%;
+	display: flex;
+	justify-content: space-evenly;
+
+	height: 50%;
+	align-items: center;
+}
+.spred .box-2 .con-net .net_images .img_telg{
+	width: 100%;
+	height: 100%;
+
+	
+}
+.spred .box-2 .con-net .net_images .img_ins{
+	width: 100%;
+	height: 100%;
+	
+	
+}
+.spred .box-2 .con-net .net_images .img_telg img{
+	height: 100%;
+	
+}
+.spred .box-2 .con-net .net_images .img_ins img{
+	height: 100%;
+	
+}
+.spred .box-3{
+    width: 100%;
+    height: 30%;
+    font-size: 22px;
+
+	border-bottom: 2px solid #00c4d9; 
+}
+.spred .box-3 .text{
+	width: 100%;
+	height: 40%;
+    
+	display: flex;
+	align-items: center;
+}
+.spred .box-3 .logo {
+	display: flex;
+	align-items: flex-end;
+	width: 100%;
+	height: 60%;
+	
+}
+.spred .box-3 .logo .img{
+	width: 10%;
+	height: 100%;
+   
+}
+.spred .box-3 .logo .img img{
+	
+	height: 100%;
+   
+}
+.spred .box-3 .logo .text{
+	padding-left: 20px;
+	font-size: 30px;
+	font-weight: bold;
+	align-items: flex-end;
+}
+
+.spred .box-4{
+    width: 100%;
+    height: 10%;
+  
+    display: flex;
+    align-items: center;
+}
+
+.spred .box-4 .text{
+   color: rgb(77, 75, 75);
+   font-size: 12px;
+}

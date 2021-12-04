@@ -1,0 +1,391 @@
+html {
+	box-sizing: inherit;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+*,
+*::before,
+*::after {
+	
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+	height: 100%;
+	margin: 0px 75px 0px 125px;
+	
+}
+
+/* Header */
+header{
+	width: 100%;
+	height: 120px;
+	background: #002224;
+}
+header .wrapper{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	color: white;
+	font-size: 20px;
+	font-weight: 700;
+	padding: 20px 0px;
+	align-items:flex-end;
+	
+}
+	
+	/* Header */
+	header .wrapper .box-1{
+		height: 50%;
+		width: 70%;
+		display: flex;
+		align-items: center;
+		
+	}
+	header .wrapper .box-1 .img{
+		width: 70%;
+		height: 100%;
+	}
+	header .wrapper .box-1 .img img{
+		height: 100%;
+	}
+	header .wrapper .box-1 .text{
+		width: 30%;
+	}
+	header .wrapper .box-2{
+		height: 50%;
+		width: 20%;
+		display: flex;
+		align-items: center;
+		
+	}
+	header .wrapper .box-2 .img{
+		width: 20%;
+		height: 100%;
+	}
+	header .wrapper .box-2 .img img{
+		height: 100%;
+	}
+	header .wrapper .box-2 .text{
+		width: 80%;
+	}
+	header .wrapper .box-2 .text:hover{
+		color: #00d7d0;
+	}
+	header .wrapper .box-3{
+		height: 50%;
+		width: 10%;
+		display: flex;
+		align-items: center;
+	
+	}
+	header .wrapper .box-3 .img-telg{
+		width: 100%;
+		height: 100%;
+		margin: 0px 5px;
+		
+	}
+	header .wrapper .box-3 .img-telg img{
+		height: 100%;
+	}
+	header .wrapper .box-3 .img-inst{
+		width: 100%;
+		height: 100%;
+		margin: 0px 5px;
+		
+	}
+	header .wrapper .box-3 .img-inst img{
+		height: 100%;
+	}
+	/* /Header boxes*/
+
+/* /Header */
+
+/* Section-1 */
+.section-1{
+	width: 100%;
+	height: 480px;
+	background: #0d0d0d;
+}
+	.section-1 .wrapper{
+		height: 100%;
+		width: 100%;
+	}
+
+	/* Section-1 .box-1*/
+	.section-1 .wrapper .box-1{
+		width: 100%;
+		height: 30%;
+		
+	}
+	.contents{
+		width: 210px;
+		height: 100%;
+		font-size: 26px;
+		font-weight: bold;
+		
+	}
+	.works{
+		width: 100%;
+		height: 50%;
+		display: flex;
+		color: white;
+		align-items: center;
+		border-bottom: 1px solid white;
+	}
+	.port{
+		width: 100%;
+		height: 50%;
+		display: flex;
+		align-items: center;
+		
+	}
+	.port .text{
+		width: 70%;
+		color: #00d7d0;
+	}
+	.port .logo{
+		width: 30%;
+		height: 100%;
+		
+	}
+	.port .logo img{
+		width:100% ;
+	}
+	/* /Section-1 .box-1*/
+
+
+	/*Section-1 .box-2*/
+	.section-1 .wrapper .box-2{
+		width: 100%;
+		height: 70%;
+	}
+	.section-1 .wrapper .box-2 .categories{
+		width: 100%;
+		height: 100%;
+		display: flex;
+	}
+	.section-1 .wrapper .box-2 .categories .item{
+		width: 25%;
+		height: 100%;
+	}
+	.categories .item .logo{
+		width: 100%;
+		height: 30%;
+		
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.categories .item .logo .img{
+		width: 70px;
+		height: 70px;
+		
+	}
+	.categories .item .logo .img img{
+		width: 100%;
+		height: 100%;
+	}
+	.categories .item .btn{
+		width: 100%;
+		height: 20%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.categories .item .btn .button{
+		width: 99%;
+		height: 100%;
+		border: none;
+		font-size: 26px;
+		font-weight: 500;
+		background: white;
+		border-radius: 20px;
+		
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.categories .item .btn .button:hover{
+		color:white;
+		background-color:#00d7d0;
+	}
+	.categories .item .sub-categories{
+		width: 100%;
+		height: 50%;
+		padding: 20px 0px;
+		
+		border-left: 2px solid #00d7d0;
+	}	
+	.categories .item .sub-categories .sc-li{
+		color: white;
+		font-weight: 500;
+		padding: 9px 15px;
+	}
+	.categories .item .sub-categories .sc-li:hover{
+		color: #00d7d0;
+	}
+	/* /Section-1 .box-1*/
+
+/* /Section-1 */
+
+
+
+
+.section-2 .wrapper{
+	width: 100%;
+	height: 600px;
+}
+.section-2 .wrapper .box-1{
+	height: 5%;
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+}
+.section-2 .wrapper .box-1 .img{
+	
+	height: 100%;
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+	
+}
+.section-2 .wrapper .box-1 .img .net{
+	width: 100%;
+	height: 100%;
+	
+}
+.section-2 .wrapper .box-1 .img .net img{
+	height: 100%;
+}
+
+.section-2 .wrapper .box-2{
+	height: 15%;
+	
+
+	display: flex;
+	align-items: center;
+}
+.section-2 .wrapper .box-2 .title{
+	font-size: 50px;
+	color: #005e68;
+	font-weight: bold;
+}
+
+.section-2 .wrapper .box-3{
+	width: 100%;
+	height: 55%;
+	
+	
+}
+.section-2 .wrapper .box-3 ul{
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+.section-2 .wrapper .box-3 .list{
+	width: 33%;
+	height: 100%;
+	margin: 0px 2px;
+	
+	
+}
+.section-2 .wrapper .box-3 .list .list-img{
+
+	height: 70%;
+	border-left: 1px solid #00d7d0;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.section-2 .wrapper .box-3 .list .list-img .img{
+
+	width: 200px;
+	height: 200px;
+	
+}
+.section-2 .wrapper .box-3 .list .list-img .img img{
+	width: 100%;
+}
+
+.section-2 .wrapper .box-3 .list .list-content{
+	color: #005e68;
+	text-align: center;
+	height: 30%;
+	font-size: 20px;
+	padding: 20px 50px;
+	
+	
+}
+
+.section-2 .wrapper .box-4{
+	height: 10%;
+	
+}
+.section-2 .wrapper .box-4 .btns{
+	width: 20%;
+	height: 100%;
+
+
+	display: flex;
+}
+.section-2 .wrapper .box-4 .btns .bt{ 
+	width: 100%;
+	
+}
+.section-2 .wrapper .box-4 .btns .bt button{ 
+	width: 100%;
+	height: 100%;
+	border-radius:10px ;
+	display: flex;
+	align-items: center;
+	border: 1px solid #00d7d0;
+
+	
+}
+.section-2 .wrapper .box-4 .btns .bt button:hover{ 
+	
+	
+	background-color: #00d7d0;
+	
+}
+.section-2 .wrapper .box-4 .btns .bt button img{ 
+	width: 100%;
+}
+.section-2 .wrapper .box-5{ 
+	width: 30%;
+	height: 15%;
+	
+	display: flex;
+	
+	align-items: flex-end;
+}
+.section-2 .wrapper .box-5 button{ 
+	
+	border-radius: 10px;
+	font-size: 25px;
+	font-weight: 700;
+	width: 100%;
+	height: 70%;
+	color:#005e68;
+	border: 1px solid #00d7d0;
+}
+.section-2 .wrapper .box-5 button:hover{ 
+	color: #005e68;
+	border: 1px solid white;
+	background-color: #00d7d0;
+	
+}
+
+
+
+
+
+
+

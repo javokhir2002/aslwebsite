@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/adminCss.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="wrapper">
+
+        <form >
+
+            <fieldset>
+                <legend>category</legend>
+                <input type="text" placeholder="enter category name" name="categoryName">
+            </fieldset>
+    
+            <fieldset>
+                <legend>sub_sategory</legend>
+                <input type="text" placeholder="enter sub_category name" name="subCategoryName">
+            </fieldset>
+    
+    
+            <fieldset>
+                <legend>content</legend>
+                <input class="title_input" type="text" placeholder="enter content title" name="title">
+                <textarea class="title_body" cols="30" rows="10" placeholder="enter content body" name="body"></textarea>
+                <input class="title_number" type="number" placeholder="enter content sub_category_id" name="subCategoryId">
+                <input class="title_file" type="file" name="file">
+            </fieldset>
+
+            <button type="submit">add data </button> 
+
+        </form>
+
+    </div>
+
+    <script src="../public/js/addData.js"></script>
+</body>
+</html>
